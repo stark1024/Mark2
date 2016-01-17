@@ -13,7 +13,7 @@ public class sticks {
         // TODO code application logic here
         Scanner s = new Scanner(System.in);
         int n = 21;
-        System.out.println("There are 21 sticks in total. The one who is left with only 1 stck in his/her chance, looses!");
+        System.out.println("There are 21 sticks in total. Both the players will pick less than 5 sticks one by one. The one who is left with only 1 stck in his/her chance, looses!\nYou have the first chance.");
         while(n>1){
             System.out.println("Enter no. of sticks to pick: ");
              int i = Integer.parseInt(s.next());
