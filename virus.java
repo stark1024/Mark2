@@ -50,6 +50,7 @@ public class virus extends javax.swing.JFrame {
 
     private void formMouseMoved(java.awt.event.MouseEvent evt) {                                
         // TODO add your handling code here:
+        int i=300, j=400;
         while(true){
             setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -57,16 +58,18 @@ public class virus extends javax.swing.JFrame {
             getContentPane().setLayout(layout);
             layout.setHorizontalGroup(
                 layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGap(0, 2000, Short.MAX_VALUE)
+                .addGap(0, i, Short.MAX_VALUE)
             );
             layout.setVerticalGroup(
                 layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGap(0, 1500, Short.MAX_VALUE)
+                .addGap(0, j, Short.MAX_VALUE)
             );
 
             pack();
         
             new virus().setVisible(true);
+            i++;
+            j++;
         }
     }                               
 
